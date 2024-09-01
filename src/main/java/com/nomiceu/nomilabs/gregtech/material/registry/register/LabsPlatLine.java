@@ -112,11 +112,11 @@ public class LabsPlatLine {
                 .components(Iridium, 1, Osmium, 1, Rhodium, 1, Ruthenium, 1, RareEarth, 1)
                 .build();
 
-        PalladiumRichAmmonia = new Material.Builder(82, makeLabsName("palladium_rich_ammonia"))
+        Ammonia = new Material.Builder(82, makeLabsName("__ammonia"))
                 .liquid()
                 .color(0x808080)
                 .flags(DISABLE_DECOMPOSITION)
-                .components(Ammonia, 2, Palladium, 1, Chlorine, 1)
+                .components(Ammonia, 4, , 1, Chlorine, 1)
                 .build();
 
         CrudePlatinumResidue = new Material.Builder(83, makeLabsName("crude_platinum_residue")) // Hardmode Material
@@ -165,7 +165,7 @@ public class LabsPlatLine {
                 .liquid()
                 .color(0x27284e)
                 .flags(DISABLE_DECOMPOSITION)
-                .components(IridiumDioxideResidue, 1, HydrochloricAcid, 4)
+                .components(IridiumDioxideResidue, 1, HydrochloricAcid, 1)
                 .build();
 
         PlatinumPalladiumLeachate = new Material.Builder(90, makeLabsName("platinum_palladium_leachate"))
